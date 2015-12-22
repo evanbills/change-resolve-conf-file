@@ -6,4 +6,3 @@
  
   - name: Google DNS for resolv.conf
     get_url: url=https://raw.githubusercontent.com/evanbills/std-build-files/master/resolv.conf dest=/etc/resolv.conf mode=0644
-    checksum: yes
